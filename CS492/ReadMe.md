@@ -20,7 +20,7 @@ In this project, we designed multiple views for MOOC users that help them to und
   - Input: MOOC sample data JSON files in 'MOOC_sample_data_jsonized' folder, list of target event types (in this project, video-related event types).
   - Output: A JSON file with all the target event data - 'videodata.json', multiple JSON files (e.g., 'videodata_0,json') with target event data with smaller size (<128MB).
   1. Filter out events not related to the video navigation.
-  2. Prettify video-related events by nesting "event" values, which are in string format.
+  2. Prettify video-related events by nesting "event" and "page" values, which are in string format.
   3. Save all the video-related events into 'videodata.json'.
   4. Save all the video-related events into multiple 'videodata_INT.json' files - so that Tableau can read each file. 
 
