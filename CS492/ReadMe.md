@@ -4,6 +4,8 @@ Codes for data preprocessing and data abstraction for CS492 InfoVis course.
 
 In this project, we designed multiple views for MOOC users that help them to understand their and others' video navigation patterns better. We worked on MOOC sample data, which is private. 
 
+Note: this ReadMe is not up to date. 
+
 # Preprocessing - jsonize
   - Input: MOOC sample data files in 'MOOC_sample_data' folder (private).
   - Output: Json files in 'MOOC_sample_data_jsonized' folder, errorlist.csv
